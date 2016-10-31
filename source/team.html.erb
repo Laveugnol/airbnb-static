@@ -1,0 +1,28 @@
+---
+title: A-team
+---
+
+<div class="welcome text-center padded">
+  <h1>Check our faces</h1>
+<div class="container">
+  <div class="row">
+    <% data.team.each do |member, infos| %>
+      <div class="col-xs-12 col-lg-6">
+        <div class="card">
+          <%= image_tag infos.picture, class: "avatar-large" %>
+          <h2><%= member.capitalize %></h2>
+          <p><%= infos.role %></p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+  <% link_to "mailto:contact@airbnb.com" do %>
+  <h3>
+    <p<i class="fa fa-envelope-o"></i>contact@airbnb.com</p>
+  </h3>
+  <% end %>
+
+</div>
+</div>
+

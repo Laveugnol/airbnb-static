@@ -1,0 +1,28 @@
+seb:
+  owner_name: Sebastien Saunier
+  picture: card-brussels.jpeg
+  owner_picture: http://placehold.it/150x150
+  name: Seb's home
+  summary: Charming room in Montmartre
+  city: Paris, France
+  wifi: true
+
+romain:
+  owner_name: Romain Paillard
+  picture: http://placehold.it/150x150
+  owner_picture: http://placehold.it/150x150
+  name: Romain's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  wifi: false
+
+arnaud:
+  owner_name: Arnaud Longueval
+  picture: card-paris.jpg
+  owner_picture: clara.jpg
+  name: ma baraque (obama)
+  summary: chouette maison à Marcq
+  city: Marcq en Baroeul, FR
+  wifi: false
+
+
